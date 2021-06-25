@@ -18,7 +18,7 @@
            <nav>
             <ul>
                 <li><a href="./" class="btn active">Home</a></li>
-                <li><a href="#Playlist" class="btn">Playlist</a></li>
+                <li><a href="#Playlist" class="btn" data-scroll="Playlist">Playlist</a></li>
                 <li><a href="#Albums" class="btn">Albums</a></li>
                 <li><a href="#About" class="btn">About</a></li>
                 <li><a href="#Merchandise" class="btn">Merchandise</a></li>
@@ -44,14 +44,19 @@
                 <img src="./resources/images/danceCharacter.png" alt="Play Music" class="image-3">
                <img src="./resources/images/danceCharacter.png" alt="Play Music" class="image-4"></div>
                </div>
-               <audio id="music">
+               <audio id="music" loop>
                    <source src="./resources/Audio/Justin-Bieber-10000-Hours.mp3" type="audio/mp3">
                </audio>
-               <div class="title">
-                   <h1>Ready? <span> Let’s play Music. </span></h1>
+              
+
+               <div class="album-cards-list " id="Playlist">
+                <div class="title">
+                    <h1>Ready? <span> Let’s play Music. </span></h1>
+                </div>
                </div>
         </div>
     </div>
+
     <script src="./navbar.js"></script>
     <script src="./Home.js"></script>
 </body>
