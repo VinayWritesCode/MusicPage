@@ -1,0 +1,9 @@
+.btn {
+  border: none;
+  cursor: pointer;
+}
+
+.active, .btn:hover {
+  border-bottom: 3px solid rgb(214, 50, 105);
+  color: white;
+}
